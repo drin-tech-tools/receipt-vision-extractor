@@ -1,0 +1,43 @@
+{
+  "merchant_name": "Sunrise Bakery",
+  "merchant_address": "7 Elm Ct, Boise, ID 83702",
+  "date": "2026-02-13",
+  "currency": "USD",
+  "items": [
+    {
+      "description": "Bagel",
+      "quantity": 1,
+      "unit_price": 2.75,
+      "total": 2.75
+    },
+    {
+      "description": "Green Tea",
+      "quantity": 1,
+      "unit_price": 3.25,
+      "total": 3.25
+    },
+    {
+      "description": "Notebook A5",
+      "quantity": 2,
+      "unit_price": 7.2,
+      "total": 14.4
+    },
+    {
+      "description": "Latte",
+      "quantity": 1,
+      "unit_price": 4.5,
+      "total": 4.5
+    },
+    {
+      "description": "Sourdough Loaf",
+      "quantity": 1,
+      "unit_price": 6.25,
+      "total": 6.25
+    }
+  ],
+  "subtotal": 31.15,
+  "tax": 2.49,
+  "tip": null,
+  "total": 33.64,
+  "payment_method": "MASTERCARD ****9876"
+}

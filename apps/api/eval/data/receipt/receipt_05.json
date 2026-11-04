@@ -1,0 +1,25 @@
+{
+  "merchant_name": "Greenfield Market",
+  "merchant_address": "450 Oak Ave, Austin, TX 78701",
+  "date": "2025-09-07",
+  "currency": "USD",
+  "items": [
+    {
+      "description": "Orange Juice",
+      "quantity": 3,
+      "unit_price": 4.1,
+      "total": 12.3
+    },
+    {
+      "description": "Paper Towels",
+      "quantity": 2,
+      "unit_price": 8.49,
+      "total": 16.98
+    }
+  ],
+  "subtotal": 29.28,
+  "tax": 2.34,
+  "tip": null,
+  "total": 31.62,
+  "payment_method": "MASTERCARD ****9876"
+}

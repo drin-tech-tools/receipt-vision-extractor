@@ -1,0 +1,43 @@
+{
+  "merchant_name": "Pixel Print Shop",
+  "merchant_address": "301 Main St, Madison, WI 53703",
+  "date": "2026-08-23",
+  "currency": "USD",
+  "items": [
+    {
+      "description": "Latte",
+      "quantity": 1,
+      "unit_price": 4.5,
+      "total": 4.5
+    },
+    {
+      "description": "Sourdough Loaf",
+      "quantity": 2,
+      "unit_price": 6.25,
+      "total": 12.5
+    },
+    {
+      "description": "Bananas",
+      "quantity": 1,
+      "unit_price": 1.89,
+      "total": 1.89
+    },
+    {
+      "description": "Cheddar Block",
+      "quantity": 3,
+      "unit_price": 5.8,
+      "total": 17.4
+    },
+    {
+      "description": "Whole Milk 1gal",
+      "quantity": 1,
+      "unit_price": 3.99,
+      "total": 3.99
+    }
+  ],
+  "subtotal": 40.28,
+  "tax": 3.22,
+  "tip": null,
+  "total": 43.5,
+  "payment_method": "MASTERCARD ****9876"
+}

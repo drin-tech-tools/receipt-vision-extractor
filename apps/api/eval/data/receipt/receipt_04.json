@@ -1,0 +1,49 @@
+{
+  "merchant_name": "Pixel Print Shop",
+  "merchant_address": "301 Main St, Madison, WI 53703",
+  "date": "2025-03-06",
+  "currency": "USD",
+  "items": [
+    {
+      "description": "Latte",
+      "quantity": 1,
+      "unit_price": 4.5,
+      "total": 4.5
+    },
+    {
+      "description": "Orange Juice",
+      "quantity": 2,
+      "unit_price": 4.1,
+      "total": 8.2
+    },
+    {
+      "description": "Sourdough Loaf",
+      "quantity": 3,
+      "unit_price": 6.25,
+      "total": 18.75
+    },
+    {
+      "description": "Green Tea",
+      "quantity": 2,
+      "unit_price": 3.25,
+      "total": 6.5
+    },
+    {
+      "description": "Notebook A5",
+      "quantity": 1,
+      "unit_price": 7.2,
+      "total": 7.2
+    },
+    {
+      "description": "Cheddar Block",
+      "quantity": 1,
+      "unit_price": 5.8,
+      "total": 5.8
+    }
+  ],
+  "subtotal": 50.95,
+  "tax": 4.08,
+  "tip": null,
+  "total": 55.03,
+  "payment_method": "Cash"
+}

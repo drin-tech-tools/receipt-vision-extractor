@@ -1,0 +1,25 @@
+{
+  "merchant_name": "Blue Heron Cafe",
+  "merchant_address": "12 Harbor St, Portland, ME 04101",
+  "date": "2025-05-28",
+  "currency": "USD",
+  "items": [
+    {
+      "description": "Bananas",
+      "quantity": 1,
+      "unit_price": 1.89,
+      "total": 1.89
+    },
+    {
+      "description": "Cable Ties",
+      "quantity": 2,
+      "unit_price": 5.99,
+      "total": 11.98
+    }
+  ],
+  "subtotal": 13.87,
+  "tax": 1.11,
+  "tip": 2.08,
+  "total": 17.06,
+  "payment_method": "Cash"
+}

@@ -1,0 +1,25 @@
+{
+  "merchant_name": "Sunrise Bakery",
+  "merchant_address": "7 Elm Ct, Boise, ID 83702",
+  "date": "2025-05-06",
+  "currency": "USD",
+  "items": [
+    {
+      "description": "Green Tea",
+      "quantity": 2,
+      "unit_price": 3.25,
+      "total": 6.5
+    },
+    {
+      "description": "Bananas",
+      "quantity": 2,
+      "unit_price": 1.89,
+      "total": 3.78
+    }
+  ],
+  "subtotal": 10.28,
+  "tax": 0.82,
+  "tip": null,
+  "total": 11.1,
+  "payment_method": "MASTERCARD ****9876"
+}

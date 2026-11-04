@@ -1,0 +1,31 @@
+{
+  "merchant_name": "Sunrise Bakery",
+  "merchant_address": "7 Elm Ct, Boise, ID 83702",
+  "date": "2025-03-02",
+  "currency": "USD",
+  "items": [
+    {
+      "description": "Paper Towels",
+      "quantity": 2,
+      "unit_price": 8.49,
+      "total": 16.98
+    },
+    {
+      "description": "Whole Milk 1gal",
+      "quantity": 2,
+      "unit_price": 3.99,
+      "total": 7.98
+    },
+    {
+      "description": "Sourdough Loaf",
+      "quantity": 2,
+      "unit_price": 6.25,
+      "total": 12.5
+    }
+  ],
+  "subtotal": 37.46,
+  "tax": 3.0,
+  "tip": null,
+  "total": 40.46,
+  "payment_method": "VISA ****1234"
+}

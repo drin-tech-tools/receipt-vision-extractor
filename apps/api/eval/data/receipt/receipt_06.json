@@ -1,0 +1,25 @@
+{
+  "merchant_name": "Northside Hardware",
+  "merchant_address": "98 Mill Rd, Denver, CO 80202",
+  "date": "2025-03-16",
+  "currency": "USD",
+  "items": [
+    {
+      "description": "Cheddar Block",
+      "quantity": 1,
+      "unit_price": 5.8,
+      "total": 5.8
+    },
+    {
+      "description": "Notebook A5",
+      "quantity": 1,
+      "unit_price": 7.2,
+      "total": 7.2
+    }
+  ],
+  "subtotal": 13.0,
+  "tax": 1.04,
+  "tip": null,
+  "total": 14.04,
+  "payment_method": "Cash"
+}

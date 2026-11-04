@@ -1,0 +1,25 @@
+{
+  "merchant_name": "Greenfield Market",
+  "merchant_address": "450 Oak Ave, Austin, TX 78701",
+  "date": "2025-08-27",
+  "currency": "USD",
+  "items": [
+    {
+      "description": "Green Tea",
+      "quantity": 1,
+      "unit_price": 3.25,
+      "total": 3.25
+    },
+    {
+      "description": "Orange Juice",
+      "quantity": 1,
+      "unit_price": 4.1,
+      "total": 4.1
+    }
+  ],
+  "subtotal": 7.35,
+  "tax": 0.59,
+  "tip": null,
+  "total": 7.94,
+  "payment_method": "MASTERCARD ****9876"
+}

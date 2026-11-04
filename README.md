@@ -39,6 +39,17 @@ cd apps/api && pytest && ruff check .
 cd apps/web && npm run lint && npm run build
 ```
 
+## Evaluation
+
+`apps/api/eval` holds a labelled test set (18 receipts, 4 IDs) and a scorer. Every third receipt is rotated and blurred to be harder. The data is synthetic: fictional merchants and people, and IDs marked SPECIMEN. It is generated deterministically by `eval/generate_dataset.py`, which writes the images and ground-truth JSON.
+
+```bash
+cd apps/api
+python -m eval.run_eval --out eval/results/latest.json   # needs GEMINI_API_KEY
+```
+
+It reports per-field accuracy, exact-document match rate, line-item F1 and average latency per document type. Numbers match within 0.01 and strings match case-insensitively. Failed requests count as wrong rather than aborting the run. The scoring logic and dataset integrity are covered by unit tests that run in CI without an API key.
+
 ## Deployment
 
 - **Web**: Vercel, root directory `apps/web`, env `NEXT_PUBLIC_API_URL`.
@@ -48,7 +59,6 @@ cd apps/web && npm run lint && npm run build
 
 - [ ] Confidence scores and field-level highlighting
 - [ ] Batch upload and CSV export
-- [ ] Evaluation set with accuracy tracking
 
 ## License
 

@@ -1,0 +1,43 @@
+{
+  "merchant_name": "Greenfield Market",
+  "merchant_address": "450 Oak Ave, Austin, TX 78701",
+  "date": "2026-04-05",
+  "currency": "USD",
+  "items": [
+    {
+      "description": "Cheddar Block",
+      "quantity": 2,
+      "unit_price": 5.8,
+      "total": 11.6
+    },
+    {
+      "description": "Paper Towels",
+      "quantity": 1,
+      "unit_price": 8.49,
+      "total": 8.49
+    },
+    {
+      "description": "Whole Milk 1gal",
+      "quantity": 2,
+      "unit_price": 3.99,
+      "total": 7.98
+    },
+    {
+      "description": "Notebook A5",
+      "quantity": 1,
+      "unit_price": 7.2,
+      "total": 7.2
+    },
+    {
+      "description": "Screwdriver Set",
+      "quantity": 1,
+      "unit_price": 14.99,
+      "total": 14.99
+    }
+  ],
+  "subtotal": 50.26,
+  "tax": 4.02,
+  "tip": null,
+  "total": 54.28,
+  "payment_method": "VISA ****1234"
+}

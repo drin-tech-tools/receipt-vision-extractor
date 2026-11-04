@@ -1,0 +1,49 @@
+{
+  "merchant_name": "Blue Heron Cafe",
+  "merchant_address": "12 Harbor St, Portland, ME 04101",
+  "date": "2025-01-01",
+  "currency": "USD",
+  "items": [
+    {
+      "description": "Whole Milk 1gal",
+      "quantity": 1,
+      "unit_price": 3.99,
+      "total": 3.99
+    },
+    {
+      "description": "Cheddar Block",
+      "quantity": 3,
+      "unit_price": 5.8,
+      "total": 17.4
+    },
+    {
+      "description": "Bagel",
+      "quantity": 2,
+      "unit_price": 2.75,
+      "total": 5.5
+    },
+    {
+      "description": "Cable Ties",
+      "quantity": 1,
+      "unit_price": 5.99,
+      "total": 5.99
+    },
+    {
+      "description": "Latte",
+      "quantity": 1,
+      "unit_price": 4.5,
+      "total": 4.5
+    },
+    {
+      "description": "Green Tea",
+      "quantity": 1,
+      "unit_price": 3.25,
+      "total": 3.25
+    }
+  ],
+  "subtotal": 40.63,
+  "tax": 3.25,
+  "tip": 6.09,
+  "total": 49.97,
+  "payment_method": "MASTERCARD ****9876"
+}

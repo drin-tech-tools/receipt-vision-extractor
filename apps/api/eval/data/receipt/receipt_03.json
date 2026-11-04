@@ -1,0 +1,25 @@
+{
+  "merchant_name": "Cedar & Stone Books",
+  "merchant_address": "22 River Ln, Asheville, NC 28801",
+  "date": "2025-07-05",
+  "currency": "USD",
+  "items": [
+    {
+      "description": "Orange Juice",
+      "quantity": 1,
+      "unit_price": 4.1,
+      "total": 4.1
+    },
+    {
+      "description": "Bananas",
+      "quantity": 1,
+      "unit_price": 1.89,
+      "total": 1.89
+    }
+  ],
+  "subtotal": 5.99,
+  "tax": 0.48,
+  "tip": null,
+  "total": 6.47,
+  "payment_method": "VISA ****1234"
+}

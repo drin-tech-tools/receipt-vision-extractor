@@ -1,0 +1,112 @@
+[
+  {
+    "doc_type": "receipt",
+    "image": "receipt/receipt_00.png",
+    "label": "receipt/receipt_00.json"
+  },
+  {
+    "doc_type": "receipt",
+    "image": "receipt/receipt_01.png",
+    "label": "receipt/receipt_01.json"
+  },
+  {
+    "doc_type": "receipt",
+    "image": "receipt/receipt_02.png",
+    "label": "receipt/receipt_02.json"
+  },
+  {
+    "doc_type": "receipt",
+    "image": "receipt/receipt_03.png",
+    "label": "receipt/receipt_03.json"
+  },
+  {
+    "doc_type": "receipt",
+    "image": "receipt/receipt_04.png",
+    "label": "receipt/receipt_04.json"
+  },
+  {
+    "doc_type": "receipt",
+    "image": "receipt/receipt_05.png",
+    "label": "receipt/receipt_05.json"
+  },
+  {
+    "doc_type": "receipt",
+    "image": "receipt/receipt_06.png",
+    "label": "receipt/receipt_06.json"
+  },
+  {
+    "doc_type": "receipt",
+    "image": "receipt/receipt_07.png",
+    "label": "receipt/receipt_07.json"
+  },
+  {
+    "doc_type": "receipt",
+    "image": "receipt/receipt_08.png",
+    "label": "receipt/receipt_08.json"
+  },
+  {
+    "doc_type": "receipt",
+    "image": "receipt/receipt_09.png",
+    "label": "receipt/receipt_09.json"
+  },
+  {
+    "doc_type": "receipt",
+    "image": "receipt/receipt_10.png",
+    "label": "receipt/receipt_10.json"
+  },
+  {
+    "doc_type": "receipt",
+    "image": "receipt/receipt_11.png",
+    "label": "receipt/receipt_11.json"
+  },
+  {
+    "doc_type": "receipt",
+    "image": "receipt/receipt_12.png",
+    "label": "receipt/receipt_12.json"
+  },
+  {
+    "doc_type": "receipt",
+    "image": "receipt/receipt_13.png",
+    "label": "receipt/receipt_13.json"
+  },
+  {
+    "doc_type": "receipt",
+    "image": "receipt/receipt_14.png",
+    "label": "receipt/receipt_14.json"
+  },
+  {
+    "doc_type": "receipt",
+    "image": "receipt/receipt_15.png",
+    "label": "receipt/receipt_15.json"
+  },
+  {
+    "doc_type": "receipt",
+    "image": "receipt/receipt_16.png",
+    "label": "receipt/receipt_16.json"
+  },
+  {
+    "doc_type": "receipt",
+    "image": "receipt/receipt_17.png",
+    "label": "receipt/receipt_17.json"
+  },
+  {
+    "doc_type": "id",
+    "image": "id/id_00.png",
+    "label": "id/id_00.json"
+  },
+  {
+    "doc_type": "id",
+    "image": "id/id_01.png",
+    "label": "id/id_01.json"
+  },
+  {
+    "doc_type": "id",
+    "image": "id/id_02.png",
+    "label": "id/id_02.json"
+  },
+  {
+    "doc_type": "id",
+    "image": "id/id_03.png",
+    "label": "id/id_03.json"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "merchant_name": "Cedar & Stone Books",
+  "merchant_address": "22 River Ln, Asheville, NC 28801",
+  "date": "2025-12-22",
+  "currency": "USD",
+  "items": [
+    {
+      "description": "Green Tea",
+      "quantity": 1,
+      "unit_price": 3.25,
+      "total": 3.25
+    },
+    {
+      "description": "Cable Ties",
+      "quantity": 3,
+      "unit_price": 5.99,
+      "total": 17.97
+    }
+  ],
+  "subtotal": 21.22,
+  "tax": 1.7,
+  "tip": null,
+  "total": 22.92,
+  "payment_method": "VISA ****1234"
+}

@@ -1,0 +1,43 @@
+{
+  "merchant_name": "Blue Heron Cafe",
+  "merchant_address": "12 Harbor St, Portland, ME 04101",
+  "date": "2026-03-21",
+  "currency": "USD",
+  "items": [
+    {
+      "description": "Bagel",
+      "quantity": 1,
+      "unit_price": 2.75,
+      "total": 2.75
+    },
+    {
+      "description": "Sourdough Loaf",
+      "quantity": 3,
+      "unit_price": 6.25,
+      "total": 18.75
+    },
+    {
+      "description": "Bananas",
+      "quantity": 1,
+      "unit_price": 1.89,
+      "total": 1.89
+    },
+    {
+      "description": "Cheddar Block",
+      "quantity": 1,
+      "unit_price": 5.8,
+      "total": 5.8
+    },
+    {
+      "description": "Notebook A5",
+      "quantity": 3,
+      "unit_price": 7.2,
+      "total": 21.6
+    }
+  ],
+  "subtotal": 50.79,
+  "tax": 4.06,
+  "tip": 7.62,
+  "total": 62.47,
+  "payment_method": "VISA ****1234"
+}
