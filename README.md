@@ -11,7 +11,10 @@ Monorepo for a multimodal document scanner. Upload a photo of a receipt or ID an
 
 1. The web app uploads an image to `POST /extract?doc_type=receipt|id`.
 2. The API sends the image to Gemini with a Pydantic-derived JSON schema (structured output).
-3. The response is validated with Pydantic and returned as JSON, then rendered in the UI.
+3. The model also reports a 0-1 confidence for every field. The response is validated with Pydantic and returned as `{doc_type, data, confidence, model}`.
+4. The UI shows a confidence badge per field and highlights anything under 70% for review.
+
+Confidence is self-reported by the model, not a calibrated probability. `eval.run_eval` prints how well it tracks correctness (mean confidence when right vs wrong, and accuracy at confidence of 0.8 or higher).
 
 ## Quick start
 
@@ -57,7 +60,6 @@ It reports per-field accuracy, exact-document match rate, line-item F1 and avera
 
 ## Roadmap
 
-- [ ] Confidence scores and field-level highlighting
 - [ ] Batch upload and CSV export
 
 ## License

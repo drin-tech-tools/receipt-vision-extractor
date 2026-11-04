@@ -17,3 +17,8 @@ pre { overflow: auto; background: #8881; padding: 12px; border-radius: 8px; font
 table { width: 100%; border-collapse: collapse; }
 td { padding: 4px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
 td:first-child { opacity: 0.7; white-space: nowrap; }
+.badge { font-size: 12px; padding: 2px 8px; border-radius: 999px; font-weight: 600; }
+.badge.high { background: #16a34a22; color: #16a34a; }
+.badge.mid { background: #d9770622; color: #d97706; }
+.badge.low { background: #dc262622; color: #dc2626; }
+tr.review td { background: #dc26260d; }

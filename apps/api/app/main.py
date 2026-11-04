@@ -34,9 +34,14 @@ async def extract(
     if len(image) > settings.max_upload_mb * 1024 * 1024:
         raise HTTPException(413, f"File exceeds {settings.max_upload_mb} MB")
     try:
-        data = extractor.extract(image, file.content_type, doc_type)
+        result = extractor.extract(image, file.content_type, doc_type)
     except ValidationError as e:
         raise HTTPException(502, f"Model returned invalid data: {e.error_count()} errors") from e
     except Exception as e:
         raise HTTPException(502, "Vision model request failed") from e
-    return ExtractResponse(doc_type=doc_type, data=data, model=extractor.model)
+    return ExtractResponse(
+        doc_type=doc_type,
+        data=result.data,
+        confidence=result.confidence,
+        model=extractor.model,
+    )

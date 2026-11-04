@@ -51,3 +51,13 @@ def test_receipt_labels_add_up():
         label = json.loads(p.read_text())
         assert abs(sum(i["total"] for i in label["items"]) - label["subtotal"]) < 0.02
         assert abs(label["subtotal"] + label["tax"] + (label["tip"] or 0) - label["total"]) < 0.02
+
+
+def test_calibration_summary():
+    from eval.run_eval import calibration
+
+    cal = calibration([(0.9, True), (0.95, True), (0.3, False), (0.85, False)])
+    assert cal["n"] == 4
+    assert cal["mean_conf_correct"] == 0.925
+    assert cal["mean_conf_wrong"] == 0.575
+    assert cal["acc_high_conf"] == 0.667
