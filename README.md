@@ -53,7 +53,7 @@ It reports per-field accuracy, exact-document match rate, line-item F1 and avera
 ## Deployment
 
 - **Web**: Vercel, root directory `apps/web`, env `NEXT_PUBLIC_API_URL`.
-- **API**: Hugging Face Spaces (Docker) or Render, env `GEMINI_API_KEY`, `CORS_ORIGINS`.
+- **API**: Render via the [`render.yaml`](render.yaml) blueprint (New > Blueprint, pick this repo), then set `GEMINI_API_KEY` and `CORS_ORIGINS` in the dashboard. Hugging Face Spaces (Docker) also works.
 
 ## Roadmap
 
